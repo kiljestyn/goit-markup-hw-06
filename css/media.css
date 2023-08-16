@@ -25,6 +25,9 @@ font-weight: 700;
     .modal {
         width: 392px;
     }
+    .service-link {
+        width: 396px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -123,6 +126,25 @@ url(../images/solution-bg-tab2x.jpg);
 
 .modal {
     width: 408px;
+}
+.service-menu {
+    justify-content: center;
+    margin-bottom: 64px;
+}
+.service-menu-item {
+    width: calc((100% - 48px) / 2);
+}
+.service-link {
+    width: 356px;
+}
+.menu-list {
+    max-width: 768px;
+}
+.service-menu-list {
+row-gap: 72px;
+}
+.menu-list {
+    padding: 64px 0 96px;
 }
 }
 
@@ -250,5 +272,22 @@ letter-spacing: 0.02em;
 }
 .modal {
     width: 408px;
+}
+.service-menu-item {
+    width: calc((100% - 48px) / 3);
+}
+.service-link {
+    width: 360px;
+}
+.menu-list {
+    max-width: 1158px;
+    padding: 96px 0 120px 0;
+}
+.service-menu-list {
+row-gap: 48px;
+}
+.service-menu {
+    justify-content: center;
+    margin-bottom: 72px;
 }
 }
