@@ -288,7 +288,7 @@ letter-spacing: 0.02em;
     width: 360px;
 }
 .menu-list {
-    max-width: 1440px;
+    max-width: 100%;
     padding: 96px 0 120px 0;
 }
 .service-menu-list {
